@@ -21,7 +21,7 @@ class TableSyncBlock {
             System.out.println("Sync block starts......" + Thread.currentThread().getName());
             for (int i = 0; i < 5; i++) {
                 System.out.println(n * i);
-                
+
             }
             System.out.println("Sync block ends...." + Thread.currentThread().getName());
         }
